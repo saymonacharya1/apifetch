@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box !important;
+          box-sizing: border-box !important;
+}
+
+h1 {
+  text-align: center;
+  width: 100%;
+  color: #727272;
+  font-weight: bolder;
+  font-size: 3rem;
+}
+
+h1 span {
+  color: green;
+}
+
+.home {
+  padding: 0 3%;
+  margin: 0%;
+}
+
+.home p {
+  width: 100%;
+  color: #686868;
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.home .deals {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.home .deals .deal {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.home .deals .deal .gallery {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 25%;
+  margin: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.home .deals .deal .gallery img {
+  width: 100%;
+  height: 100%;
+  border-radius: 3%;
+}
+
+.home .deals .deal .gallery p {
+  font-size: 1rem;
+  text-align: center;
+}
+/*# sourceMappingURL=index.css.map */
